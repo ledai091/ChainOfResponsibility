@@ -1,0 +1,16 @@
+2025-04-17 00:04:57 - root - INFO - Logger configured. Log file: logs/ml_pipeline_20250417_000457.log
+2025-04-17 00:04:57 - root - INFO - Bắt đầu quy trình ML với bộ dữ liệu Iris
+2025-04-17 00:10:43 - root - INFO - Thiết lập chuỗi xử lý (Chain of Responsibility)
+2025-04-17 00:10:43 - root - INFO - Bắt đầu thực hiện chuỗi xử lý
+2025-04-17 00:10:43 - handlers.dataset_handler - INFO - DatasetHandler: Processing request
+2025-04-17 00:10:43 - handlers.dataset_handler - INFO - Loading data from data/raw/iris_dataset.csv
+2025-04-17 00:10:43 - handlers.dataset_handler - INFO - Preprocessing data
+2025-04-17 00:10:43 - handlers.dataset_handler - INFO - Splitting data into train/validation/test sets
+2025-04-17 00:10:43 - handlers.dataset_handler - INFO - DatasetHandler: Dataset prepared successfully
+2025-04-17 00:10:43 - handlers.model_builder_handler - INFO - ModelBuilderHandler: Processing request
+2025-04-17 00:10:49 - handlers.model_builder_handler - INFO - ModelBuilderHandler: Model get_model built successfully
+2025-04-17 00:10:50 - handlers.training_handler - INFO - TrainingHandler: Processing request
+2025-04-17 00:10:50 - handlers.training_handler - INFO - TrainingHandler: Starting model training
+2025-04-17 00:10:50 - handlers.training_handler - ERROR - TrainingHandler: Error training model - Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+2025-04-17 00:10:50 - handlers.training_handler - ERROR - TrainingHandler: Stopping chain due to error
+2025-04-17 00:10:56 - root - ERROR - Quy trình thất bại với lỗi: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.

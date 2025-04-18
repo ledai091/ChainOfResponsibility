@@ -1,0 +1,10 @@
+2025-04-16 23:26:40 - root - INFO - Logger configured. Log file: logs/ml_pipeline_20250416_232640.log
+2025-04-16 23:26:40 - root - INFO - Bắt đầu quy trình ML với bộ dữ liệu Iris
+2025-04-16 23:26:40 - root - INFO - Thiết lập chuỗi xử lý (Chain of Responsibility)
+2025-04-16 23:26:40 - root - INFO - Bắt đầu thực hiện chuỗi xử lý
+2025-04-16 23:26:40 - handlers.dataset_handler - INFO - DatasetHandler: Processing request
+2025-04-16 23:26:40 - handlers.dataset_handler - INFO - Loading data from data/raw/iris_dataset.csv
+2025-04-16 23:26:40 - handlers.dataset_handler - INFO - Preprocessing data
+2025-04-16 23:26:40 - handlers.dataset_handler - ERROR - DatasetHandler: Error preparing dataset 'Config' object has no attribute 'one_hot_encode'
+2025-04-16 23:26:40 - handlers.dataset_handler - ERROR - DatasetHandler: Stopping chain due to error
+2025-04-16 23:26:40 - root - ERROR - Quy trình thất bại với lỗi: 'Config' object has no attribute 'one_hot_encode'

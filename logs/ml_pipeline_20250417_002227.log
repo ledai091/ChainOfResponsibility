@@ -1,0 +1,10 @@
+2025-04-17 00:22:27 - root - INFO - Logger configured. Log file: logs/ml_pipeline_20250417_002227.log
+2025-04-17 00:22:27 - root - INFO - Bắt đầu quy trình ML với bộ dữ liệu Iris
+2025-04-17 00:22:27 - root - INFO - Thiết lập chuỗi xử lý (Chain of Responsibility)
+2025-04-17 00:22:27 - root - INFO - Bắt đầu thực hiện chuỗi xử lý
+2025-04-17 00:22:27 - handlers.dataset_handler - INFO - DatasetHandler: Processing request
+2025-04-17 00:22:27 - handlers.dataset_handler - INFO - Loading data from data/raw/iris_dataset.csv
+2025-04-17 00:22:27 - handlers.dataset_handler - INFO - Preprocessing data
+2025-04-17 00:22:27 - handlers.dataset_handler - INFO - Splitting data into train/validation/test sets
+2025-04-17 00:22:27 - handlers.dataset_handler - INFO - DatasetHandler: Dataset prepared successfully
+2025-04-17 00:22:27 - handlers.model_builder_handler - INFO - ModelBuilderHandler: Processing request
