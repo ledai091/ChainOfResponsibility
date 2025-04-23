@@ -1,5 +1,5 @@
 IMPLEMENT CHAIN OF RESPONSIBILITY
-python
+
 ```
 ml_chain_of_responsibility/
 ├── handlers/
